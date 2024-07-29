@@ -11,7 +11,8 @@ define('USER','localhost');
 define('SENHA','');
 
 define('DS', DIRECTORY_SEPARATOR);
-define('DIR_APP', "C:\\xampp\\htdocs\\ApiRest\\");
+define('DIR_APP', __DIR__);
+define('DIR_PROJETO', 'ApiRest');
 
 if(file_exists('autoload.php')){
     include('autoload.php');
